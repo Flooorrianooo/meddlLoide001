@@ -33,7 +33,9 @@ public class EratosthenesPrimeSieve implements PrimeSieve{
     @Override
     public void printPrime() {
         for (int i = 0; i < primes.length; i++) {
-            System.out.println(i + " = " + primes[i]);
+            if (primes[i])
+                System.out.println(i);
+
         }
     }
 }
