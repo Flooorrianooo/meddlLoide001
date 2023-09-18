@@ -1,7 +1,14 @@
 public class EratosthenesPrimeSieve implements PrimeSieve{
 
+    int lastNumber = 0;
+
+
+    public EratosthenesPrimeSieve(int lastNumber){
+        this.lastNumber = lastNumber;
+    }
+
     @Override
-    public Boolean isPrime() {
+    public Boolean isPrime(int p) {
         return null;
     }
 
